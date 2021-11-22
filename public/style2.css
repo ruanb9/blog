@@ -1,0 +1,75 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+header{
+  background-color: rgb(83, 8, 180);
+  padding: 10px;
+}
+.btn-menu{
+  color: #fff;
+  font-size: 25px;
+}
+nav{
+  height: 100%;
+  width: 0px;
+  background-color: rgb(83, 8, 180);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+
+nav a{
+  color: #fff;
+  font-size: 25px;
+  display: block;
+  padding: 12px 10px 12px 32px;
+}
+a:hover{
+  opacity: 0.7;
+}
+main{
+  height: 100vh;
+  padding: 10px;
+  transition: margin-left 0.3s;
+  background: url(/arquivos/fundo1.jpg) no-repeat center center;
+  background-size: cover;
+}
+main h1{
+  color: #fff;
+}
+button{
+  border:none;
+  padding: 8px;
+  background-color: rgb(16, 177, 16);
+  font-size: 20px;
+}
+.footer{
+  padding: 8px;
+  min-height: 5vh;
+  color: #fff;
+  background-color: rgb(83, 8, 180);
+}
+.footer h2{
+  text-align: center;
+}
+.foot-list{
+  
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.foot-list li{
+
+  margin-right: 180px;
+ 
+  
+}
