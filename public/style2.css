@@ -38,21 +38,16 @@ main{
   height: 100vh;
   padding: 10px;
   transition: margin-left 0.3s;
-  background: url(../arquivos/fundo1.jpg) no-repeat center center;
+  background: url(../arquivos/fundo1at.jpg) no-repeat center center;
   background-size: cover;
 }
 main h1{
   color: #fff;
 }
-button{
-  border:none;
-  padding: 8px;
-  background-color: rgb(16, 177, 16);
-  font-size: 20px;
-}
+
 .footer{
   padding: 8px;
-  min-height: 5vh;
+  min-height: 145px;
   color: #fff;
   background-color: rgb(83, 8, 180);
 }
@@ -60,16 +55,29 @@ button{
   text-align: center;
 }
 .foot-list{
-  
+  /* margin-left: 75vh; */
   list-style: none;
+  
   display: flex;
-  justify-content: space-around;
+ 
+  
+  
+  
+  
+   /* justify-content: space-between; */
   
 }
 
 .foot-list li{
-
-  margin-right: 180px;
+  position:relative;
+  top: 50%; 
+  left:43%;
+ 
+ 
+  transform: translate(-43%,-10%);
+ 
+  
+  /* margin-right: 180px; */
  
   
 }
