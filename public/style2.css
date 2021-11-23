@@ -55,29 +55,16 @@ main h1{
   text-align: center;
 }
 .foot-list{
-  /* margin-left: 75vh; */
   list-style: none;
-  
   display: flex;
- 
-  
-  
-  
-  
-   /* justify-content: space-between; */
-  
 }
 
 .foot-list li{
   position:relative;
   top: 50%; 
   left:43%;
- 
- 
   transform: translate(-43%,-10%);
+
+
  
-  
-  /* margin-right: 180px; */
- 
-  
 }
